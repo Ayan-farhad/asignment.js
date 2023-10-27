@@ -474,29 +474,45 @@
 
 // Question 14
 
-// let a = 2, b = 1;
-// let  result = --a - --b + ++b + b--;
-
-// let a1= --a;
-// let b1 = --a - --b;
-// let a_= --a - --b + ++b;
-// let c1= --a - --b + ++b + b--;
-// document.write('a is ' +a)
-// document.write('<br>')
-
-// let b2= --a;
-// let b3 = --a - --b;
-// let b_= --a - --b + ++b;
-// let c2= --a - --b + ++b + b--;
-// document.write('a is ' +a)
-// document.write('<br>')
-
-// let add = a+b2
-// document.write('result is ' + add)
-
+// var a = 2;
+// var b = 1;
+// -- a;
+// -- b;
+// var aAndB = --a - --b;
+// var abAndB = aAndB + ++b;
+// var abAndbb = abAndB + b--;
+// document.write('a is ' + a)
+// document.write("<br>")
+// document.write("b is " + b)
+// document.write("<br>")
+// document.write("Result is : " + abAndbb)
+// document.write("<br>")
 
 
 // Question 15
+
+// let Abc_1 = 15
+// let Abc_2 = 85
+// let Abc_3 = 2
+// let Abc_4 = 140
+// let oreo = 'Oreo biscuits'
+
+// document.write('<h1>The LifeTime Supply Calculator</h1>')
+// document.write('<br>')
+// document.write('<br>')
+
+// document.write('Favorite Snack : ' +oreo)
+// document.write('<br>')
+// document.write('Current Age : ' +Abc_1)
+// document.write('<br>')
+// document.write('Maximum Age : ' +Abc_2)
+// document.write('<br>')
+// document.write('Amount of Snacks per day : ' +Abc_3)
+// document.write('<br>')
+// document.write('<br>')
+// document.write('You will need ' +Abc_4+ ' Oreo biscuits to last you until theripe old age of ' +Abc_2)
+
+
 
 
          //** **/
