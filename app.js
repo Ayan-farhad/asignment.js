@@ -316,31 +316,187 @@
 // Question 7
 
 
-let item1 = 560;
-let Quan1 = 2;
-let price2 = 200;
-let Quan2 = 5;
-let ship = 150;
+// let item1 = 560;
+// let Quan1 = 2;
+// let price2 = 200;
+// let Quan2 = 5;
+// let ship = 150;
 
-document.write('<h2>Shopping card </h2>')
-document.write('Price of item 1 is ' +item1)
-document.write('<br>')
+// document.write('<h2>Shopping card </h2>')
+// document.write('Price of item 1 is ' +item1)
+// document.write('<br>')
 
-document.write('Quantity of item 1 is ' +Quan1)
-document.write('<br>')
+// document.write('Quantity of item 1 is ' +Quan1)
+// document.write('<br>')
 
-document.write('Price of item '+Quan1+ ' is ' +price2)
-document.write('<br>')
+// document.write('Price of item '+Quan1+ ' is ' +price2)
+// document.write('<br>')
 
-document.write('Quantity of item '+Quan1+ ' is ' +Quan2)
-document.write('<br>')
-document.write('<br>')
+// document.write('Quantity of item '+Quan1+ ' is ' +Quan2)
+// document.write('<br>')
+// document.write('<br>')
 
-document.write('Shipping charges ' +ship)
-document.write('<br>')
-document.write('<br>')
+// document.write('Shipping charges ' +ship)
+// document.write('<br>')
+// document.write('<br>')
 
-let multi1 = item1*Quan1
-let multi2 = price2*Quan2
-let total = multi1 + multi2 + ship
-document.write('Total cost of your order is ' +total+ ' PKR' )
+// let multi1 = item1*Quan1
+// let multi2 = price2*Quan2
+// let total = multi1 + multi2 + ship
+// document.write('Total cost of your order is ' +total+ ' PKR' )
+
+
+
+// Question 8
+
+// document.write('<h1>Marks sheet  </h1>')
+// document.write('<br>')
+// document.write('<br>')
+
+// let m1 = 1200 
+// let o1 = 900
+// let per = o1 / m1  *100
+// document.write('Total marks : ' +m1)
+// document.write('<br>')
+// document.write(' Marks obtained : ' + o1)
+// document.write('<br>')
+// document.write('Percentage : ' +per+ '%')
+
+
+
+// Question 9
+
+// document.write('<h1>Currency in PKR</h1>')
+// document.write('<br>')
+
+// let us = 10 
+// let upkr = 104 
+// let t1 = us * upkr
+// let q1 = 25 
+// let q2 = 28 
+// let t2 = q1*q2
+// let end = t1 + t2
+// document.write('Total Currency in PKR : '+ end )
+
+
+
+// Question 10
+
+// let m = 1
+// let ques10 = ((m + 5) *10) / 2;
+// document.write( ques10 )
+// alert( ques10)
+
+
+
+// Question 11
+
+// let y1 = 2023 
+// let b2 = 2006 
+// let b3 = 2005
+// let age1 = y1 - b2 
+// let age2 = y1 - b3
+
+// document.write('<h1>The age Calculator </h1>')
+// document.write("<br>")
+// document.write('Current Year : '+ y1 )
+// document.write("<br>")
+// document.write('Birth Year : '+b2 )
+// document.write("<br>")
+// document.write("<br>")
+// document.write("They are either " +age1+ " or " +age2+ ' years old.'  )
+
+
+// Question 12
+
+// let radius = 24
+// let pie = 3.142
+// let pieAndR = pie * radius
+// let circumference = 2 * pieAndR
+// let squareOfRadius = 24 * 24
+// let area = pie * squareOfRadius
+
+
+// document.write('<h1>The Geometrizer</h1>')
+// document.write("<br>")
+// document.write("<br>")
+// document.write("Radius of a circle : " + radius)
+// document.write("<br>")
+// document.write("The circumference is : " + circumference)
+// document.write("<br>")
+// document.write('The area is : ' + area)
+// document.write("<br>")
+
+
+
+// Question 13
+
+// let a = 10;
+// let a2 = 10;
+// ++ a2;
+// let a3 = 11;
+// a3 ++;
+// let a4 = 12;
+// -- a4;
+// let a5 = 11;
+// a5 --;
+
+// document.write("Result:")
+// document.write("<br>")
+// document.write("The value of a is : " + a)
+// document.write("<br>")
+// document.write("<br>")
+
+// document.write("The value of ++a is : " + a2)
+// document.write("<br>")
+// document.write("Now the value of a is : " + a2)
+// document.write("<br>")
+// document.write("<br>")
+
+// document.write("The value of a++ is : " + a2)
+// document.write("<br>")
+// document.write("Now the value of a is : " + a3)
+// document.write("<br>")
+// document.write("<br>")
+
+// document.write("The value of  --a is : " + a4)
+// document.write("<br>")
+// document.write("Now the value of a is : " + a4)
+// document.write("<br>")
+// document.write("<br>")
+
+// document.write("The value of  a-- is : " + a2)
+// document.write("<br>")
+// document.write("Now the value of a is : " + a5)
+// document.write("<br>")
+
+
+
+// Question 14
+
+// let a = 2, b = 1;
+// let  result = --a - --b + ++b + b--;
+
+// let a1= --a;
+// let b1 = --a - --b;
+// let a_= --a - --b + ++b;
+// let c1= --a - --b + ++b + b--;
+// document.write('a is ' +a)
+// document.write('<br>')
+
+// let b2= --a;
+// let b3 = --a - --b;
+// let b_= --a - --b + ++b;
+// let c2= --a - --b + ++b + b--;
+// document.write('a is ' +a)
+// document.write('<br>')
+
+// let add = a+b2
+// document.write('result is ' + add)
+
+
+
+// Question 15
+
+
+         //** **/
