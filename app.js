@@ -515,4 +515,522 @@
 
 
 
-         //** **/
+         //**Condition statement **/
+
+         // Question 1
+
+// let abc =prompt ('Enter your name')
+// document.write(abc)
+
+// let userName = prompt('Please enter your name')
+
+// if(userName){
+//     alert('Hello, ' + userName + '! Welcome to our website!')
+// } else{
+//     alert('hello, guest! Welcome to our website!')
+// }
+
+// Question 2
+
+// let num = Number(prompt('Enter a Number to print its multiplication table '))
+// if(num == 2){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("2 * 1 = 2")
+//     document.write("<br>")
+//     document.write("2 * 2 = 4")
+//     document.write("<br>")
+//     document.write("2 * 3 = 6")
+//     document.write("<br>")
+//     document.write("2 * 4 = 8")
+//     document.write("<br>")
+//     document.write("2 * 5 = 10")
+//     document.write("<br>")
+//     document.write("2 * 6 = 12")
+//     document.write("<br>")
+//     document.write("2 * 7 = 14")
+//     document.write("<br>")
+//     document.write("2 * 8 = 16")
+//     document.write("<br>")
+//     document.write("2 * 9 = 18")
+//     document.write("<br>")
+//     document.write("2 * 10 = 20")
+//     document.write("<br>")
+// } else if(num == 3) {
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("3 * 1 = 3")
+//     document.write("<br>")
+//     document.write("3 * 2 = 6")
+//     document.write("<br>")
+//     document.write("3 * 3 = 9")
+//     document.write("<br>")
+//     document.write("3 * 4 = 12")
+//     document.write("<br>")
+//     document.write("3 * 5 = 15")
+//     document.write("<br>")
+//     document.write("3 * 6 = 18")
+//     document.write("<br>")
+//     document.write("3 * 7 = 21")
+//     document.write("<br>")
+//     document.write("3 * 8 = 24")
+//     document.write("<br>")
+//     document.write("3 * 9 = 27")
+//     document.write("<br>")
+//     document.write("3 * 10 = 30")
+//     document.write("<br>")
+// }  else if(num == 4){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("4 * 1 = 4")
+//     document.write("<br>")
+//     document.write("4 * 2 = 8")
+//     document.write("<br>")
+//     document.write("4 * 3 = 12")
+//     document.write("<br>")
+//     document.write("4 * 4 = 16")
+//     document.write("<br>")
+//     document.write("4 * 5 =  20")
+//     document.write("<br>")
+//     document.write("4 * 6 = 24")
+//     document.write("<br>")
+//     document.write("4 * 7 = 28")
+//     document.write("<br>")
+//     document.write("4 * 8 = 32")
+//     document.write("<br>")
+//     document.write("4 * 9 = 36")
+//     document.write("<br>")
+//     document.write("4 * 10 = 40")
+//     document.write("<br>")
+// }   else if(num == 6){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("6 * 1 = 6")
+//     document.write("<br>")
+//     document.write("6 * 2 = 12")
+//     document.write("<br>")
+//     document.write("6 * 3 = 18")
+//     document.write("<br>")
+//     document.write("6 * 4 = 24")
+//     document.write("<br>")
+//     document.write("6 * 5 = 30")
+//     document.write("<br>")
+//     document.write("6 * 6 = 36")
+//     document.write("<br>")
+//     document.write("6 * 7 = 42")
+//     document.write("<br>")
+//     document.write("6 * 8 = 48")
+//     document.write("<br>")
+//     document.write("6 * 9 = 54")
+//     document.write("<br>")
+//     document.write("6 * 10 = 60")
+//     document.write("<br>")
+// }  else if(num ==7){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("7 * 1 = 7")
+//     document.write("<br>")
+//     document.write("7 * 2 = 14")
+//     document.write("<br>")
+//     document.write("7 * 3 = 21")
+//     document.write("<br>")
+//     document.write("7 * 4 = 28")
+//     document.write("<br>")
+//     document.write("7 * 5 = 35")
+//     document.write("<br>")
+//     document.write("7 * 6 = 42")
+//     document.write("<br>")
+//     document.write("7 * 7 = 49")
+//     document.write("<br>")
+//     document.write("7 * 8 = 56")
+//     document.write("<br>")
+//     document.write("7 * 9 = 63")
+//     document.write("<br>")
+//     document.write("7 * 10 = 70")
+//     document.write("<br>")
+// }  else if(num ==8){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("8 * 1 = 8")
+//     document.write("<br>")
+//     document.write("8 * 2 = 16")
+//     document.write("<br>")
+//     document.write("8 * 3 = 24")
+//     document.write("<br>")
+//     document.write("8 * 4 = 32")
+//     document.write("<br>")
+//     document.write("8 * 5 = 40")
+//     document.write("<br>")
+//     document.write("8 * 6 = 48")
+//     document.write("<br>")
+//     document.write("8 * 7 = 56")
+//     document.write("<br>")
+//     document.write("8 * 8 = 64")
+//     document.write("<br>")
+//     document.write("8 * 9 = 72")
+//     document.write("<br>")
+//     document.write("8 * 10 = 80")
+//     document.write("<br>")
+// }  else if(num ==9){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("9 * 1 = 9")
+//     document.write("<br>")
+//     document.write("9 * 2 = 18")
+//     document.write("<br>")
+//     document.write("9 * 3 = 27")
+//     document.write("<br>")
+//     document.write("9 * 4 = 36")
+//     document.write("<br>")
+//     document.write("9 * 5 = 45")
+//     document.write("<br>")
+//     document.write("9 * 6 = 54")
+//     document.write("<br>")
+//     document.write("9 * 7 = 63")
+//     document.write("<br>")
+//     document.write("9 * 8 = 72")
+//     document.write("<br>")
+//     document.write("9 * 9 = 81")
+//     document.write("<br>")
+//     document.write("9 * 10 = 90")
+//     document.write("<br>")
+// }  else if(num ==10){
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br>")
+//     document.write("<br>")
+//     document.write("10 * 1 = 10")
+//     document.write("<br>")
+//     document.write("10 * 2 = 20")
+//     document.write("<br>")
+//     document.write("10 * 3 = 30")
+//     document.write("<br>")
+//     document.write("10 * 4 = 40")
+//     document.write("<br>")
+//     document.write("10 * 5 = 50")
+//     document.write("<br>")
+//     document.write("10 * 6 = 60")
+//     document.write("<br>")
+//     document.write("10 * 7 = 70")
+//     document.write("<br>")
+//     document.write("10 * 8 = 80")
+//     document.write("<br>")
+//     document.write("10 * 9 = 90")
+//     document.write("<br>")
+//     document.write("10 * 10 = 100")
+//     document.write("<br>")
+// }  else{
+//     document.write("<h1>" + "Multiplication table" + "</h1>")
+//     document.write("<br >")
+//     document.write("<br>")
+//     document.write("5 * 1 = 5")
+//     document.write("<br>")
+//     document.write("5 * 2 = 10")
+//     document.write("<br>")
+//     document.write("5 * 3 = 15")
+//     document.write("<br>")
+//     document.write("5 * 4 = 20")
+//     document.write("<br>")
+//     document.write("5 * 5 = 25")
+//     document.write("<br>")
+//     document.write("5 * 6 = 30")
+//     document.write("<br>")
+//     document.write("5 * 7 = 35")
+//     document.write("<br>")
+//     document.write("5 * 8 = 40")
+//     document.write("<br>")
+//     document.write("5 * 9 = 45")
+//     document.write("<br>")
+//     document.write("5 * 10 = 50")
+//     document.write("<br>")
+// }
+
+// document.write('<h3>Multiplication table of 7 </h3>')
+// document.write('<br>')
+
+// let table1 = 7
+// let multi1 = 1
+// let sub1 = table1*multi1
+// document.write('7 x '+multi1 + ' = '+sub1)
+// document.write('<br>')
+
+// let table2 = 7
+// let multi2 = 2
+// let sub2 = table2*multi2
+// document.write('7 x '+multi2 + ' = '+sub2)
+// document.write('<br>')
+
+// let table3 = 7
+// let multi3 = 3
+// let sub3 = table3*multi3
+// document.write('7 x '+multi3 + ' = '+sub3)
+// document.write('<br>')
+
+// let table4 = 7
+// let multi4 = 4
+// let sub4 = table4*multi4
+// document.write('7 x '+multi4 + ' = '+sub4)
+// document.write('<br>')
+
+// let table5 = 7
+// let multi5 = 5
+// let sub5 = table5*multi5
+// document.write('7 x '+multi5 + ' = '+sub5)
+// document.write('<br>')
+
+// let table6 = 7
+// let multi6 = 6
+// let sub6 = table6*multi6
+// document.write('7 x '+multi6 + ' = '+sub6)
+// document.write('<br>')
+
+// let table7 = 7
+// let multi7 = 7
+// let sub7 = table7*multi7
+// document.write('7 x '+multi7 + ' = '+sub7)
+// document.write('<br>')
+
+// let table8 = 7
+// let multi8 = 8
+// let sub8 = table8*multi8
+// document.write('7 x '+multi8 + ' = '+sub8)
+// document.write('<br>')
+
+// let table9 = 7
+// let multi9 = 9
+// let sub9 = table9*multi9
+// document.write('7 x '+multi9 + ' = '+sub9)
+// document.write('<br>')
+
+// let table10 = 7
+// let multi10 = 10
+// let sub10 = table10*multi10
+// document.write('7 x '+multi10 + ' = '+sub10)
+// document.write('<br>')
+
+
+// Question 3
+
+// let city = prompt('Please enter your city name')
+
+// if(city =='Karachi'){
+//     alert('Welcome to the city of lights')
+// } else if(city =="karachi"){
+//     alert('Welcome to the city of lights')
+// } else{
+//     alert('Please enter your city name first!')
+// }
+
+
+
+// Question 4
+
+// let gender = prompt("Please enter your gender (male/female):")
+
+// if (gender.toLowerCase() === "male") {
+//   document.write("Good morning, Sir!");
+// } else if (gender.toLowerCase() === "female") {
+//   document.write("Good morning, Ma'am!");
+// } else {
+//   document.write("Invalid input. Please enter either 'male' or 'female'.");
+// }
+
+// Question 5
+
+// let color = prompt("Enter the color of the road traffic signal:");
+// let message = "";
+
+// if (color === "red") {
+//   message = "Stop! It's a red signal.";
+// } else if (color === "yellow") {
+//   message = "Get ready! It's a yellow signal.";
+// } else if (color === "green") {
+//   message = "Go! It's a green signal.";
+// } else {
+//   message = "Invalid input. Please enter a valid color.";
+// }
+
+// console.log(message);
+
+// let colorBox = document.createElement("div");
+// colorBox.style.width = "100px";
+// colorBox.style.height = "100px";
+// colorBox.style.backgroundColor = color;
+// document.body.appendChild(colorBox);
+
+
+// Question 6 
+
+// let maxAge = prompt("Enter the maximum age:");
+// let currentAge = prompt("Enter your current age:");
+
+// if (currentAge <= maxAge) {
+//   console.log("You are welcome!");
+// }
+
+
+// Question 7
+
+// let rfuel = prompt('Enter your remaining fuel in your car (in Liters): ') 
+
+// if (rfuel < 0.25){
+//     console.log("You have enough fuel in your car.")
+// }else{
+//     console.log('Please refill the fuel in youe=r car." ');
+// }
+
+ 
+// Question 8
+// a.
+// var a = 4;
+// if (++a === 5){
+//  alert("given condition for variable a is true");
+// }
+// showing
+
+// b.
+//  var b = 82;
+// if (b++ === 83){
+//  alert("given condition for variable b is true");
+// }
+// not showing
+
+// c. 
+// var c = 12;
+// if (c++ === 13){
+//  alert("condition 1 is true");
+// }
+
+// if (c === 13){
+//  alert("condition 2 is true");
+// }
+// showing
+
+// if (++c < 14){
+//  alert("condition 3 is true");
+// }
+
+// if(c === 14){
+//  alert("condition 4 is true");
+// }
+// showing
+
+// d.
+//  var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//  alert("The cost equals");
+// }
+// showing
+
+// e.
+//  if (true){
+//     alert("True");
+//    }
+// showing
+
+//    if (false){
+//     alert("False");
+//    }
+
+// f. 
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//    }
+//    showing
+
+
+// Question 9
+
+//    let marksObtained = Number(prompt('Please enter your obtained marks.'))
+//    let totalMarks = Number(prompt('Please enter your total marks.'))
+//    let percentage = (marksObtained / totalMarks) * 100
+
+//    document.write("<h1>" + "Marks Sheet" + "</h1>")
+//    document.write("<br>")
+//    document.write()
+//    document.write("<br>")
+//    document.write("Total marks : " + totalMarks)
+//    document.write("<br>")
+//    document.write("Marks obtained : " + marksObtained)
+//    document.write("<br>")
+//    document.write("Percentage : " + percentage + "%")
+//    document.write("<br>")
+
+//    if(percentage >= 80){
+//     document.write("Grade : A-one")
+//     document.write("<br>")
+//     document.write("Remarks : Excellent ")
+//     document.write("<br>")
+//    } else if(percentage >= 70){
+//     document.write("Grade : A")
+//     document.write("<br>")
+//     document.write("Remarks : Good ")
+//     document.write("<br>")
+//    } else if(percentage >= 60){
+//     document.write("Grade : B")
+//     document.write("<br>")
+//     document.write("Remarks : You need to improve ")
+//     document.write("<br>")
+//    } else if(percentage < 60){
+//     document.write("Grade : C")
+//     document.write("<br>")
+//     document.write("Remarks : Sorry ")
+//     document.write("<br>")
+//    } else{
+//     document.write("Go to Visual Studio Code")
+//    }
+
+
+
+// Question 10
+
+// let item1 = 1000
+// let item2 = 2
+// let item3 = 700 
+// let item4 = 3
+// let item5 = 250
+
+// let mul= item1*item2
+// let mul1 = item3*item4
+// let ad = mul + mul1 +item5
+
+// document.write('<h1>Shopping Card</h1>')
+
+// document.write('Price of T-shirt is ' +item1)
+// document.write('<br>')
+// document.write('Quantity of T-shirt is ' +item2)
+// document.write('<br>')
+// document.write('Price of USB Flash drive is ' +item3)
+// document.write('<br>')
+// document.write('Quantity of USB Flash drive is ' +item4)
+// document.write('<br>')
+// document.write('<br>')
+
+// document.write('Shipping charges ' +item5)
+// document.write('<br>')
+// document.write('<br>')
+
+// document.write('Total cost of your order is ' +ad+'PKR')
+// document.write('<br>')
+// document.write('Discounted price is 3915 PKR')
+
+
+// Question 11
+
+// let bin =prompt('Guess the number :')
+// if (bin > 10){
+//     console.log('"Bingo correct answer. "');
+// } 
+
+// let close =prompt('Guess the number :')
+// if (close < 10){
+//     console.log('"Close enough to the answer "')
+// } 
